@@ -6,6 +6,14 @@ public class Empregado{
     private double comissao;
     private double bonus;
     
+    public int getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(int tipo) {
+        this.tipo = tipo;
+    }
+
     public double calcularSalario(){
         switch(tipo){
             case 1:
